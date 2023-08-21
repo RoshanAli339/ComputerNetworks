@@ -9,7 +9,7 @@
 
 # Typical Switching Network
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled.png)
+![Untitled](Switched%20Network/Untitled.png)
 
 # Switching Technologies
 
@@ -56,25 +56,25 @@ Two approaches
 - **TDM Bus**
 - **Combinations**
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%201.png)
+![Untitled](Switched%20Network/Untitled%201.png)
 
 ### Space Division Switch
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%202.png)
+![Untitled](Switched%20Network/Untitled%202.png)
 
 ### Multi-stage Space Division Switch
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%203.png)
+![Untitled](Switched%20Network/Untitled%203.png)
 
 ### Time Division Multiplexing
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%204.png)
+![Untitled](Switched%20Network/Untitled%204.png)
 
 Extensively used in telephone connectivity
 
 ### Time Slot Interchange
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%205.png)
+![Untitled](Switched%20Network/Untitled%205.png)
 
 ## Circuit Switching - Properties/Issues
 
@@ -99,7 +99,7 @@ Extensively used in telephone connectivity
 
 ## Packet Switched Network
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%206.png)
+![Untitled](Switched%20Network/Untitled%206.png)
 
 ## Packet Switching — Advantages
 
@@ -121,7 +121,7 @@ Extensively used in telephone connectivity
 - Packets may get lost or delayed
 - Up to receiver to re-order packets and recover from missing packets
 
-![Packet Switching — Datagram approach](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%207.png)
+![Packet Switching — Datagram approach](Switched%20Network/Untitled%207.png)
 
 Packet Switching — Datagram approach
 
@@ -134,17 +134,17 @@ Packet Switching — Datagram approach
 - Clear request to drop circuit
 - Not a dedicated path
 
-![Packet Switching — Virtual Circuit Approach](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%208.png)
+![Packet Switching — Virtual Circuit Approach](Switched%20Network/Untitled%208.png)
 
 Packet Switching — Virtual Circuit Approach
 
 ## VC Switching Table
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%209.png)
+![Untitled](Switched%20Network/Untitled%209.png)
 
 ## Virtual Circuit — Source to Destination
 
-![Untitled](Switched%20Network%2050af5fd5affe4abe841c67c4445cdbd0/Untitled%2010.png)
+![Untitled](Switched%20Network/Untitled%2010.png)
 
 # Packet Switching — Virtual Circuits vs Datagram
 

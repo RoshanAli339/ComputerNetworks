@@ -37,15 +37,15 @@ WWW is a distributed client/server service, in which a HTTP client (browser) can
 
 ## Operation
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled.png)
 
 ## HTTP client (browser)
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%201.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%201.png)
 
 ## URL
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%202.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%202.png)
 
 ## Web Documents
 
@@ -57,49 +57,49 @@ Web documents can be grouped into three broad categories:
 
 ## Static Document
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%203.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%203.png)
 
 ## Dynamic document using CGI (Common Gateway Interface)
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%204.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%204.png)
 
 ## Dynamic document using Server-site script
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%205.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%205.png)
 
 ## Active document using Java Applet
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%206.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%206.png)
 
 ## Active document using Client-Site script
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%207.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%207.png)
 
 ## HTTP Transaction
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%208.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%208.png)
 
 ## HTTP: Request and Response messages
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%209.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%209.png)
 
 ## HTTP Request and Status lines
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2010.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2010.png)
 
 ## HTTP Methods
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2011.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2011.png)
 
 ## HTTP status codes
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2012.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2012.png)
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2013.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2013.png)
 
 ## HTTP Header
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2014.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2014.png)
 
 ## Request Headers
 
@@ -253,21 +253,21 @@ Specifies the location of the created or moved document
 
 This example retrieves a document. We use the GET method to retrieve an image with the path */usr/bin/image1*. The request line shows the method (GET), the URL, and the HTTP version (1.1). The header has two lines that show that the client can accept images in the GIF or JPEG format. The request does not have a body. The response message contains the status line and four lines of header. The header lines define the date, server, MIME version, and length of the document. The body of the document follows the header.
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2015.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2015.png)
 
 ## Example 2
 
 In this example, the client wants to send data to the server. Use the POST method. The request line shows the method (POST), URL, and HTTP version (1.1).  are four lines of headers. The request body contains the input information. The response message contains the status line and four lines of headers. The created document, which is a CGI document, is included as the body
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2016.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2016.png)
 
 ## Connecting HTTP server using TELNET
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2017.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2017.png)
 
 ## HTTP Proxy Server
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2018.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2018.png)
 
 ---
 
@@ -370,11 +370,11 @@ Reference: **************RFC 854**************
 
 ## Network Virtual Terminal (NVT)
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2019.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2019.png)
 
 ## TELNET
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2020.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2020.png)
 
 ## Negotiated Options
 
@@ -426,8 +426,8 @@ Reference: **************RFC 854**************
 
 ## telnet hostname port
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2021.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2021.png)
 
 ## TELNET
 
-![Untitled](HTTP,%20HTML,%20TELNET%20ecf433431d044d2792b4a1abafce1937/Untitled%2022.png)
+![Untitled](HTTP,%20HTML,%20TELNET/Untitled%2022.png)

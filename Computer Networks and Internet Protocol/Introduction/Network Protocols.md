@@ -30,21 +30,21 @@
 
 # Interfaces
 
-![Untitled](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled.png)
+![Untitled](Network%20Protocols/Untitled.png)
 
 # Protocol Hierarchy
 
-![Untitled](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%201.png)
+![Untitled](Network%20Protocols/Untitled%201.png)
 
 # Encapsulation
 
-![High level messages are encapsulated inside of low-level languages](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%202.png)
+![High level messages are encapsulated inside of low-level languages](Network%20Protocols/Untitled%202.png)
 
 High level messages are encapsulated inside of low-level languages
 
 # OSI (Open Systems Interconnection) Model
 
-![Untitled](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%203.png)
+![Untitled](Network%20Protocols/Untitled%203.png)
 
 # Protocol Layers - Functions
 
@@ -74,11 +74,11 @@ High level messages are encapsulated inside of low-level languages
 
 # Internet Architecture
 
-![Internet Protocol Graph](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%204.png)
+![Internet Protocol Graph](Network%20Protocols/Untitled%204.png)
 
 Internet Protocol Graph
 
-![Untitled](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%205.png)
+![Untitled](Network%20Protocols/Untitled%205.png)
 
 It is defined by IETF
 
@@ -96,7 +96,7 @@ Three main features:
 
 # TCP/IP Protocol Stack
 
-![TCP/IP layers — Group of function in each layer](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%206.png)
+![TCP/IP layers — Group of function in each layer](Network%20Protocols/Untitled%206.png)
 
 TCP/IP layers — Group of function in each layer
 
@@ -128,12 +128,12 @@ TCP/IP layers — Group of function in each layer
 
 ************************TCP/IP specifications do not describe or standardize any network-layer protocols per se; they only standardize ways of accessing those protocols from the internetwork layer************************
 
-![TCP/IP Architecture](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%207.png)
+![TCP/IP Architecture](Network%20Protocols/Untitled%207.png)
 
 TCP/IP Architecture
 
 ## TCP/IP Protocol Architecture and Communication Network
 
-![Untitled](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%208.png)
+![Untitled](Network%20Protocols/Untitled%208.png)
 
-![Untitled](Network%20Protocols%20211fa1b4132241198908c10f50f30cb9/Untitled%209.png)
+![Untitled](Network%20Protocols/Untitled%209.png)

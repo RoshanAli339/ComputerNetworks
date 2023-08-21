@@ -2,14 +2,14 @@
 
 # Connection Establishment
 
-![Untitled](Connection%201%202ef677c7accf4b4b9e7a15ae6aebc546/Untitled.png)
+![Untitled](Connection%201/Untitled.png)
 
 - Consider a scenario when the network can lose, delay, corrupt and duplicate packets (the underline network layers uses unreliable data delivery)
 - Consider retransmission for ensuring reliability — every packet uses different paths to reach the destination
 - Packets may be delayed and got struck in the network congestion, after the timeout, the sender assumes that the packets have been dropped, and retransmits the packets
 - It may happen that the server has crashed and reinitiated the connection. So distinguishing between these two is essential
 
-![Untitled](Connection%201%202ef677c7accf4b4b9e7a15ae6aebc546/Untitled%201.png)
+![Untitled](Connection%201/Untitled%201.png)
 
 ****************How will the server differentiate whether CONNECTION REQ -1 is a new connection request or a duplicate of the CONNECTION REQ-2?****************
 
@@ -58,14 +58,14 @@ We need to guarantee not only that a packet is dead, but also that all acknowled
 
 ## Initial Sequence Number during Connection Establishment
 
-![Untitled](Connection%201%202ef677c7accf4b4b9e7a15ae6aebc546/Untitled%202.png)
+![Untitled](Connection%201/Untitled%202.png)
 
 A delayed duplicate packet for connection 1 can create a confusion for connection 2
 
 ## What we Ideally want? Either
 
-![Untitled](Connection%201%202ef677c7accf4b4b9e7a15ae6aebc546/Untitled%203.png)
+![Untitled](Connection%201/Untitled%203.png)
 
 ## Or
 
-![Untitled](Connection%201%202ef677c7accf4b4b9e7a15ae6aebc546/Untitled%204.png)
+![Untitled](Connection%201/Untitled%204.png)

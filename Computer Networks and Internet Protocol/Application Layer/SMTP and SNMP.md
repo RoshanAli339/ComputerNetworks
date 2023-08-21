@@ -6,19 +6,19 @@
 - Standard Message Format (RFC882, 2822, D. Crocker)
 - Goal: To transfer mail reliably and efficiently
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled.png)
+![Untitled](SMTP%20and%20SNMP/Untitled.png)
 
 - SMTP clients and servers have two main components
     - User Agents — Prepares the messages, encloses it in an envelope (Thunderbird, Eudora)
     - Mail Transfer Agent — Transfers the mail across the internet (Sendmail, Exim)
     - Analogous to the postal system in many ways
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%201.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%201.png)
 
 - SMTP also allows the use of Relays allowing other MTAs to relay the mail
 - Mail Gateways are used to relay mail prepared by a protocol other than SMTP and convert it to SMTP
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%202.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%202.png)
 
 ## SMTP keywords
 
@@ -72,15 +72,15 @@ Command Name
 
 ## Connection Establishment
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%203.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%203.png)
 
 ## Message Progress
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%204.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%204.png)
 
 ## Connection Termination
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%205.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%205.png)
 
 ## Problem with generic SMTP
 
@@ -96,7 +96,7 @@ It cannot handle with all kinds of data
         - Audio
         - Video
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%206.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%206.png)
 
 ## MIME Headers
 
@@ -133,7 +133,7 @@ Located between the Email Header and Body
 
 ## POP vs IMAP
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%207.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%207.png)
 
 ## Post Office Protocol v3
 
@@ -171,7 +171,7 @@ Fundamental objective of Simple Network Management Protocol (SNMP) is to manage 
     - A manager
     - SNMP subagents
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%208.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%208.png)
 
 - ********SNMP agent******** is the software that runs on a piece of network equipment (host, router, printer, or others) and that maintains information about its configurations and current state in a database.
 - Information in the database is described by **********************************************************************************Management Information Bases (IMBs)**********************************************************************************
@@ -180,7 +180,7 @@ Fundamental objective of Simple Network Management Protocol (SNMP) is to manage 
 
 ## SNMP interactions
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%209.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%209.png)
 
 ## Management Information Bases (IMBs)
 
@@ -204,7 +204,7 @@ Fundamental objective of Simple Network Management Protocol (SNMP) is to manage 
     - Generally: Manager sends queries and agent responds
     - Exception: Traps are initiated by agent
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%2010.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%2010.png)
 
 - ************Get-request:************ Requests the values of one or more objects
 - ******Get-next-request:****** Requests the value of the next object, according to a lexicographical ordering of OIDs.
@@ -229,7 +229,7 @@ Fundamental objective of Simple Network Management Protocol (SNMP) is to manage 
 
 SNMPv1 Get/Set messages:
 
-![Untitled](SMTP%20and%20SNMP%201ea230fb23a2456fab2e20dc168ad643/Untitled%2011.png)
+![Untitled](SMTP%20and%20SNMP/Untitled%2011.png)
 
 ## SNMP Security
 

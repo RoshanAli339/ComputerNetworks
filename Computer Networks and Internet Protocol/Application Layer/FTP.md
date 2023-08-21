@@ -9,7 +9,7 @@
     - Server or client may be running on different machines
     - Server waits for requests from client(s).
 
-![Untitled](FTP%2023697f215c23486483e11fffcda7c9d4/Untitled.png)
+![Untitled](FTP/Untitled.png)
 
 - Typical Scenario:
     - The server process starts on some computer system
@@ -123,7 +123,7 @@
 - The client FTP application is built with a protocol interpreter (PI), a data transfer process (DTP), and a user interface
 - The server FTP application typically only consists of a PI and DTP
 
-![Untitled](FTP%2023697f215c23486483e11fffcda7c9d4/Untitled%201.png)
+![Untitled](FTP/Untitled%201.png)
 
 - FTP client’s user interface communicates with the protocol interpreter (PI), which manages the control connection
 - PI translates any application-specific commands to the RFC architected FTP commands, and then communicates these control commands to the FTP server
@@ -144,7 +144,7 @@ When using FTP, the user performs some or all of the following operations:
 
 ## A Typical FTP scenario
 
-![Untitled](FTP%2023697f215c23486483e11fffcda7c9d4/Untitled%202.png)
+![Untitled](FTP/Untitled%202.png)
 
 # Trivial File Transfer Protocol (TFTP)
 
@@ -160,16 +160,16 @@ When using FTP, the user performs some or all of the following operations:
 
 ## FTP — Access Commands
 
-![Untitled](FTP%2023697f215c23486483e11fffcda7c9d4/Untitled%203.png)
+![Untitled](FTP/Untitled%203.png)
 
 ## FTP — File Management Commands
 
-![Untitled](FTP%2023697f215c23486483e11fffcda7c9d4/Untitled%204.png)
+![Untitled](FTP/Untitled%204.png)
 
 ## FTP — Data Formatting Command
 
-![Untitled](FTP%2023697f215c23486483e11fffcda7c9d4/Untitled%205.png)
+![Untitled](FTP/Untitled%205.png)
 
 ## FTP — File Transfer Commands
 
-![Untitled](FTP%2023697f215c23486483e11fffcda7c9d4/Untitled%206.png)
+![Untitled](FTP/Untitled%206.png)

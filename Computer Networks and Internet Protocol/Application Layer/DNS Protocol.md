@@ -34,19 +34,19 @@
 
 ## Domain Name Space
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled.png)
+![Untitled](DNS%20Protocol/Untitled.png)
 
 ## Domain Names and Labels
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%201.png)
+![Untitled](DNS%20Protocol/Untitled%201.png)
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%202.png)
+![Untitled](DNS%20Protocol/Untitled%202.png)
 
 ## Domain Name Structure
 
 Domain Names are arranged in a hierarchical tree-like structure
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%203.png)
+![Untitled](DNS%20Protocol/Untitled%203.png)
 
 ## Fully Qualified domain names (FQDNs)
 
@@ -59,7 +59,7 @@ Domain Names are arranged in a hierarchical tree-like structure
 - These names are registered with and maintained  by the **Internet Corporation for Assigned Names and Numbers (ICANN).**
 - Examples
     
-    ![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%204.png)
+    ![Untitled](DNS%20Protocol/Untitled%204.png)
     
 
 ## Country Domains
@@ -71,11 +71,11 @@ Domain Names are arranged in a hierarchical tree-like structure
 
 ## Hierarchy of Name Servers
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%205.png)
+![Untitled](DNS%20Protocol/Untitled%205.png)
 
 ## Zones and Domains
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%206.png)
+![Untitled](DNS%20Protocol/Untitled%206.png)
 
 ## What is a Zone?
 
@@ -100,19 +100,19 @@ Domain Names are arranged in a hierarchical tree-like structure
 
 # DNS in the Internet
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%207.png)
+![Untitled](DNS%20Protocol/Untitled%207.png)
 
 ## Generic Domains
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%208.png)
+![Untitled](DNS%20Protocol/Untitled%208.png)
 
 ## Country Domains
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%209.png)
+![Untitled](DNS%20Protocol/Untitled%209.png)
 
 ## Inverse Domain
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2010.png)
+![Untitled](DNS%20Protocol/Untitled%2010.png)
 
 # Name Resolution
 
@@ -128,11 +128,11 @@ Domain Names are arranged in a hierarchical tree-like structure
 
 ## Hierarchy of Name Servers
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2011.png)
+![Untitled](DNS%20Protocol/Untitled%2011.png)
 
 ## Recursive Resolution
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2012.png)
+![Untitled](DNS%20Protocol/Untitled%2012.png)
 
 ## Iterative Name Resolution
 
@@ -140,18 +140,18 @@ Domain Names are arranged in a hierarchical tree-like structure
     - If response if negative, the DNS server to query next is also returned.
     - Unlike recursive name resolution, where only one response is finally returned back to the client.
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2013.png)
+![Untitled](DNS%20Protocol/Untitled%2013.png)
 
 ## DNS Full Resolver
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2014.png)
+![Untitled](DNS%20Protocol/Untitled%2014.png)
 
 ## Domain Name stub resolver
 
 - *********Stub resolver*********, a routine linked with the user program, that forwards the queries to a name server for processing.
 - On most platforms, the stub resolver is implemented by two library routines (or by some variation of these routines): **************************gethostbyname()************************** and ********************************gethostbyaddr()********************************.
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2015.png)
+![Untitled](DNS%20Protocol/Untitled%2015.png)
 
 # DNS Messages
 
@@ -165,27 +165,27 @@ Domain Names are arranged in a hierarchical tree-like structure
 - There will be a name server (NS) record for the primary name server for this zone. There might also be NS records for the secondary name servers.
 - The NS records are used to identify which of the anme servers are authoritative.
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2016.png)
+![Untitled](DNS%20Protocol/Untitled%2016.png)
 
 ## DNS RR Message Format
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2017.png)
+![Untitled](DNS%20Protocol/Untitled%2017.png)
 
 ## DNS Messages
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2018.png)
+![Untitled](DNS%20Protocol/Untitled%2018.png)
 
 ## Query and Response Messages
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2019.png)
+![Untitled](DNS%20Protocol/Untitled%2019.png)
 
 ## Header Format
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2020.png)
+![Untitled](DNS%20Protocol/Untitled%2020.png)
 
 ## Flag Fields
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2021.png)
+![Untitled](DNS%20Protocol/Untitled%2021.png)
 
 QR: Query/ Response
 
@@ -205,17 +205,17 @@ rCode: Status of the error
 
 ## Question Record Format
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2022.png)
+![Untitled](DNS%20Protocol/Untitled%2022.png)
 
 ## Query Name Format
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2023.png)
+![Untitled](DNS%20Protocol/Untitled%2023.png)
 
 **admin.atc.fhda.edu**
 
 ## Resource Record Format
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2024.png)
+![Untitled](DNS%20Protocol/Untitled%2024.png)
 
 ## Example 1
 
@@ -223,11 +223,11 @@ A resolver sends a query message to a local server to find the IP address for th
 
 ### The Query Message
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2025.png)
+![Untitled](DNS%20Protocol/Untitled%2025.png)
 
 ### The Response Message
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2026.png)
+![Untitled](DNS%20Protocol/Untitled%2026.png)
 
 ## Example 2
 
@@ -235,8 +235,8 @@ A FTP server has recieved a packet from an FTP client with IP address 153.2.7.9.
 
 ### Inverse Query Message
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2027.png)
+![Untitled](DNS%20Protocol/Untitled%2027.png)
 
 ### Inverse Response Message
 
-![Untitled](DNS%20Protocol%208f71aacee59044fe95e1dd10adec9240/Untitled%2028.png)
+![Untitled](DNS%20Protocol/Untitled%2028.png)

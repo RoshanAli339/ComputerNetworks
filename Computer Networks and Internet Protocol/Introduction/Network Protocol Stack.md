@@ -28,7 +28,7 @@
 
 # TCP/IP - Packet Encapsulation
 
-![Untitled](Network%20Protocol%20Stack%202a1cac7b80074e989d4934b2460953a3/Untitled.png)
+![Untitled](Network%20Protocol%20Stack/Untitled.png)
 
 ## NIC Specifics
 

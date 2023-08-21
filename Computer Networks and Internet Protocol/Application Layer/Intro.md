@@ -7,31 +7,31 @@
 - Example of applications: Telnet, SMTP, FTP etc.
 - Interface between the application and transport layers is defined by port numbers and “************sockets************”
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled.png)
+![Untitled](Intro/Untitled.png)
 
-![Operation](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%201.png)
+![Operation](Intro/Untitled%201.png)
 
 Operation
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%202.png)
+![Untitled](Intro/Untitled%202.png)
 
-![Sample Protocols](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%203.png)
+![Sample Protocols](Intro/Untitled%203.png)
 
 Sample Protocols
 
-![Protocol Stack Implementation in a Host](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%204.png)
+![Protocol Stack Implementation in a Host](Intro/Untitled%204.png)
 
 Protocol Stack Implementation in a Host
 
-![How Application Data Passes Through Different Layers](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%205.png)
+![How Application Data Passes Through Different Layers](Intro/Untitled%205.png)
 
 How Application Data Passes Through Different Layers
 
-![Application Layer Interfacing](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%206.png)
+![Application Layer Interfacing](Intro/Untitled%206.png)
 
 Application Layer Interfacing
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%207.png)
+![Untitled](Intro/Untitled%207.png)
 
 ## Responsibilities of Application Layer
 
@@ -73,28 +73,28 @@ Application Layer Interfacing
 
 ## HTTP
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%208.png)
+![Untitled](Intro/Untitled%208.png)
 
 ## SMTP
 
 E-mail services communicate with each other using the Simple Mail Transport Protocol (SMTP) to send and receive mail
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%209.png)
+![Untitled](Intro/Untitled%209.png)
 
 ## SNMP
 
 The Simple Network Management Protocol (SNMP) is an application layer protocol that facilitates the exchange of management information between network devices.
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%2010.png)
+![Untitled](Intro/Untitled%2010.png)
 
 ## Telnet
 
 Telnet client software provides the ability to log into a remote internet host that is running a Telnet server application and then to execute commands from the command line
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%2011.png)
+![Untitled](Intro/Untitled%2011.png)
 
 ## Network API : “Socket”
 
 Server and Client exchange messages over the network through a common ********************Socket API********************
 
-![Untitled](Intro%20fbc13c644beb4eed9e9033ec80d0f44f/Untitled%2012.png)
+![Untitled](Intro/Untitled%2012.png)

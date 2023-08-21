@@ -8,7 +8,7 @@
     - One packet must be the duplicate
     - The receiver discards the duplicate packets
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled.png)
+![Untitled](Connection%20II/Untitled.png)
 
 - ********************************Adjust the initial sequence numbers properly -******************************** A host does not restart with a sequence number in the forbidden region,, based on the sequence number it used before crash and the time duration T
 
@@ -17,7 +17,7 @@
 1. A host sends too much data too fast on a newly opened connection
 2. The data rate is too slow that the sequence number for a previous connection enter the forbidden region for the next connection
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%201.png)
+![Untitled](Connection%20II/Untitled%201.png)
 
 ## Adjust the sending rate based on sequence numbers
 
@@ -35,22 +35,22 @@ The maximum data rate on any connection is one segment per clock tick
 - By looking at the ACK, host 1 ensures that sequence number x does not belong to the forbidden region of any previously established connection
 - By looking at the ACK in DATA, Host 2 ensures the sequence number y does not belong to the forbidden region of any previously established connection
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%202.png)
+![Untitled](Connection%20II/Untitled%202.png)
 
 ## CONNECTION REQUEST is a Delayed Duplicate
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%203.png)
+![Untitled](Connection%20II/Untitled%203.png)
 
 ## CONNECTION REQUEST and ACK both are Delayed Duplicates
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%204.png)
+![Untitled](Connection%20II/Untitled%204.png)
 
 ## Connection Release — Asymmetric Release
 
 - When one party hangs up, the connection is broken
 - This may result in data loss
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%205.png)
+![Untitled](Connection%20II/Untitled%205.png)
 
 ## Connection Release — Symmetric Release
 
@@ -63,20 +63,20 @@ The maximum data rate on any connection is one segment per clock tick
 
 # The Two Army Problem
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%206.png)
+![Untitled](Connection%20II/Untitled%206.png)
 
 ## Connection Release
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%207.png)
+![Untitled](Connection%20II/Untitled%207.png)
 
 ## Connection Release — Final ACK Lost
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%208.png)
+![Untitled](Connection%20II/Untitled%208.png)
 
 ## Connection Release — Response Lost
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%209.png)
+![Untitled](Connection%20II/Untitled%209.png)
 
 ## Connection Release — Response Lost and Subsequent DRs Lost
 
-![Untitled](Connection%20II%2055308767a7a34790892b3e6295000cf4/Untitled%2010.png)
+![Untitled](Connection%20II/Untitled%2010.png)
